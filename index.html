@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="zh-Hans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReChanger-瑞强</title>
+    <script>
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            if(userAgentInfo.indexOf("Android") != -1){
+                return false;
+            }else if(userAgentInfo.indexOf("iPhone") != -1){
+                return false;
+            }else if(userAgentInfo.indexOf("iPad") != -1){
+                return false;
+            } else if(userAgentInfo.indexOf("Windows") != -1){
+                return true;
+            }else{
+                return false;
+            }
+        }
+
+        if(IsPC()){
+            window.location.replace("./PC/index.html");
+        }else{
+            window.location.replace("./Mobile/index.html");
+        }
+    </script>
+</head>
+</html>
