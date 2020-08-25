@@ -1,0 +1,26 @@
+body{
+    margin-left: 10%;
+    height: 100%;
+    color: transparent;
+    background: url("../background.jpg");
+    background-size: 316%;
+    background-clip: text;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    -webkit-background-clip: text;
+    background-position: 20% 20%;
+}
+
+#title{
+    font-size:8mm;
+    color: transparent;
+    background: url("../gradients2.jpg");
+    background-size: 64mm;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#title2{
+    font-size: 5.6mm;
+    color: #FFCC99;
+}
